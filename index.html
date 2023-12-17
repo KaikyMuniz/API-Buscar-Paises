@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <title>Procure Países</title>
+</head>
+<body>
+    <form action="php/buscar_api.php" method="POST">
+        <h1>Procure Países</h1>
+        <label>Insira o nome de um país:</label>
+        <br/>
+        <input type="name" id="nomePais" autocomplete="off" name="nome_pais" placeholder="Nome do País:"/>
+        <br/>
+        <span>
+            <input type="submit" id="submit" value="Buscar País"/>
+        </span>
+    </form>
+</body>
+</html>
