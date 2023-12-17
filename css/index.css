@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    overflow-x: hidden;
+    background-image: url("../images/fundo.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+form{
+    background-color: #000000a9;
+    padding: 20px;
+    border-radius: 15px 0 15px 0;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+label{
+    font-size: 1.5em;
+    cursor: text;
+}
+
+#nomePais{
+    background-color: #00000081;
+    border-color: #fff transparent transparent #fff;
+    border-width: 2px;
+    border-radius: 5px 0 5px 0;
+    padding: 5px;
+    min-width: 20vw;
+    min-height: 3vh;
+    font-family: "Poppins";
+    color: #fff;
+    margin: 5px 0 10px 0;
+    font-size: 1.1em;
+}
+
+span{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#submit{
+    background-color: #ffffffde;
+    border-color: #fff transparent transparent #fff;
+    color: #000;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;    
+    margin: 10px 0 5px 0;
+    font-size: 1.3em;
+    font-family: "Poppins";
+    padding: 5px;
+    transition: 700ms ease-in-out;
+}
+
+#submit:hover{
+    background-color: #00000081;
+    border-color: #fff transparent transparent #fff;
+    color: #fff;
+}
